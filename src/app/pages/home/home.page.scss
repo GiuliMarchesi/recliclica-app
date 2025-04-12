@@ -1,0 +1,22 @@
+ion-toolbar{
+--background: var(--ion-color-success);
+}
+
+ion-list{
+    padding: 0px;
+    box-shadow: 0 1px 2px 1px rgba(0 0 0 / 20%);
+    .money{
+        font-weight: bold;
+    }
+}
+
+ion-card{
+    ion-card-subtitle{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    //esto es para que el texto no se corte, al parecer no es necesario
+    // p{
+    //     white-space: normal;
+    // }
+}
